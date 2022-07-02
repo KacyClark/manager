@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    color: dark blueviolet;
+}
+.main-content{
+    display: flex;
+}
+.list {
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.form { 
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#btnshowhide {
+    background-color: azure;
+    color: black;
+}
+div {
+     flex: auto;
+     flex-direction: column;
+}
